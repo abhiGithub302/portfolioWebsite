@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from "@vercel/analytics"
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -12,4 +12,4 @@ import { Analytics } from "@vercel/analytics/react"
         document.body.classList.toggle("light-mode");
     })
 })();
-<Analytics/>
+inject()
