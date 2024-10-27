@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
