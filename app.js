@@ -1,4 +1,4 @@
-import { inject } from "@vercel/analytics"
+
 (function ()
 
  {
@@ -14,5 +14,5 @@ import { inject } from "@vercel/analytics"
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
     })
-    inject()
+    
 })();
